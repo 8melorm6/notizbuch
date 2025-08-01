@@ -1,3 +1,2 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/preflight";   /* = Basis-Styles wie Reset, normalize.css */
+@import "tailwindcss/utilities";   /* = Tailwind-Klassen wie text-xl, bg-blue-500 usw. */
